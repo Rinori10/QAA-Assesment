@@ -1,0 +1,101 @@
+{
+  "report": {
+    "title": "Serenity Summary Report",
+    "tagCategoryTitle": "Category",
+    "version": "",
+    "date": "2022-03-16T14:15:08.837332700"
+  },
+  "results": {
+    "counts": {
+      "total": 1,
+      "success": 1,
+      "pending": 0,
+      "ignored": 0,
+      "skipped": 0,
+      "failure": 0,
+      "error": 0,
+      "compromised": 0
+    },
+    "percentages": {
+      "success": 100,
+      "pending": 0,
+      "ignored": 0,
+      "skipped": 0,
+      "failure": 0,
+      "error": 0,
+      "compromised": 0
+    },
+    "totalTestDuration": 6877,
+    "totalClockDuration": 6,
+    "minTestDuration": 6877,
+    "maxTestDuration": 6877,
+    "averageTestDuration": 6877
+  },
+  "resultsByFeature": [
+    {
+      "featureName": "Get Whether Information",
+      "scenarios": [
+        {
+          "title": "Check if city name is returned correctly",
+          "result": "success",
+          "outcomes": [
+            {
+              "result": "success",
+              "description": "",
+              "errorMessage": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "frequentFailures": [
+  ],
+  "unstableFeatures": [
+  ],
+  "coverage": [
+    {
+      "tagTitle": "Feature",
+      "tagCoverages": [
+        {
+          "tagName": "Get Whether Information",
+          "testCount": 1,
+          "successRate": "100%",
+          "counts": {
+            "total": 1,
+            "success": 1,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          },
+          "percentages": {
+            "success": 100,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "tagType": "",
+      "tagResults": [
+        {
+          "tagName": "debug",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}
+
+
+
