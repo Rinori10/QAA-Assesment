@@ -51,5 +51,10 @@ public class StepDefinitions {
                 .statusCode();
         log.info("Response status we got: " + currentResponse);
         return currentResponse;
+
+
+
+
     }
+
 }
